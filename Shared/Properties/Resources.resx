@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="armor_breastplate_emperor_s armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_breastplate_emperor_s armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_breastplate_mage_s destiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_breastplate_mage_s destiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_breastplate_meteor guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_breastplate_meteor guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_breastplate_sun plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_breastplate_sun plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_divine destiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_divine destiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_earth plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_earth plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_hero_s fortitude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_hero_s fortitude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_iron oath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_iron oath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_magma plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_magma plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_tortoise guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_tortoise guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_shield_unbreakable guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\armor_shield_unbreakable guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_beef stew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_beef stew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_birthday cupcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_birthday cupcake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_burger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_chocolate milkshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_chocolate milkshake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_combined_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_combined_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_combined_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_combined_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_combined_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_combined_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_combined_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_combined_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_combined_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_combined_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_cupcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_cupcake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_bell pepper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_bell pepper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_bread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_bread.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_broccoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_broccoli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_jar of flour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_jar of flour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_jug of milk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_jug of milk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_lettuce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_lettuce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_mushroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_mushroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_pumpkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_pumpkin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_ingredient_tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_ingredient_tomato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_macaroni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_macaroni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_malt milkshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_malt milkshake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_parfait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_parfait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_salad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_stuffed pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_stuffed pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food_udon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\food_udon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="materials_herb_sage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\materials_herb_sage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="materials_herb_yarrow flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\materials_herb_yarrow flower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="materials_rune_air rune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\materials_rune_air rune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="materials_rune_fire rune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\materials_rune_fire rune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_max_health" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_max_health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_medium_earth affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_medium_earth affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_medium_evasiveness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_medium_evasiveness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_medium_fire affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_medium_fire affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_medium_invisibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_medium_invisibility.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_medium_mana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_medium_mana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_strong_defense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_strong_defense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_strong_evasiveness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_strong_evasiveness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_strong_fire affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_strong_fire affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_strong_strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_strong_strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_air affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_air affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_defense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_defense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_dexterity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_dexterity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_earth affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_earth affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_evasiveness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_evasiveness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_health" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_ice affinity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_ice affinity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_mana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_mana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_necromancy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_necromancy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_weak_strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\potion_weak_strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_axe_gygantallax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_axe_gygantallax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_axe_helm splitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_axe_helm splitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_axe_stone winder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_axe_stone winder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_death_s edge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_death_s edge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_divine promise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_divine promise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_emperor_s ire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_emperor_s ire .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_ice forged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_ice forged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_oathbreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_oathbreaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_spawn seeker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_spawn seeker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_spirit cleaver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_spirit cleaver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_titan_s fury" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_titan_s fury.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_titan_s glory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_titan_s glory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_sword_willbreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_sword_willbreaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_demon_s ruin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_demon_s ruin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_divine oath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_divine oath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_divine shard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_divine shard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_magma spire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_magma spire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_mystic claw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_mystic claw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_soul_s end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_soul_s end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_sun forged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_sun forged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_sun shard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_sun shard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weapons_wand_winter song" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\weapons_wand_winter song.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
