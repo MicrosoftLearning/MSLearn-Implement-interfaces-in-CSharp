@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\buzahid\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Solution\\Solution-Implement-Interfaces.csproj",
+      "projectName": "Solution-Implement-Interfaces",
+      "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Solution\\Solution-Implement-Interfaces.csproj",
+      "packagesPath": "C:\\Users\\buzahid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Solution\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\buzahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://msazure.pkgs.visualstudio.com/_packaging/Official/nuget/v3/index.json": {},
+        "https://msblox.pkgs.visualstudio.com/DefaultCollection/_packaging/AzureGenevaMonitoring/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
