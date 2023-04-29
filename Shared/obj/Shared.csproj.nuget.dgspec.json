@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj": {}
+    "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj": {
+    "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\buzahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

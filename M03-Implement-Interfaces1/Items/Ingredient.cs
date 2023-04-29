@@ -1,6 +1,4 @@
-﻿using Shared.Properties;
-
-namespace M03_Implement_Interfaces.Items
+﻿namespace M03_Implement_Interfaces.Items
 {
     internal class Ingredient : Food, ICombinable
     {

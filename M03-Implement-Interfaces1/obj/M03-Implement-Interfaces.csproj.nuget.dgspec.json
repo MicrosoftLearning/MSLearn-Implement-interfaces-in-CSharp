@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj": {}
+    "C:\\Users\\buzahid\\Desktop\\Repos\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj": {
+    "C:\\Users\\buzahid\\Desktop\\Repos\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\Repos\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj",
         "projectName": "M03-Implement-Interfaces",
-        "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj",
+        "projectPath": "C:\\Users\\buzahid\\Desktop\\Repos\\M03-Implement-Interfaces1\\M03-Implement-Interfaces.csproj",
         "packagesPath": "C:\\Users\\buzahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\M03-Implement-Interfaces1\\obj\\",
+        "outputPath": "C:\\Users\\buzahid\\Desktop\\Repos\\M03-Implement-Interfaces1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -33,8 +33,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj"
+              "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj": {
+    "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\buzahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buzahid\\Desktop\\CsharpProjects\\LP-Implement-interfaces-in-C-sharp\\Interfaces\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\buzahid\\Desktop\\Repos\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

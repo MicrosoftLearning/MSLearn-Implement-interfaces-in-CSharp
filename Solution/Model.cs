@@ -114,12 +114,7 @@ namespace Solution
             foreach (Item item in inventory)
             {
                 if (item is ICombinable)
-                {
-                    if (item is Food food && !food.IsIngredient())
-                        continue;
-
                     items.Add(item);
-                }
             }
             return items;
         }

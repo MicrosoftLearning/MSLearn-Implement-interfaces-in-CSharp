@@ -145,6 +145,7 @@ namespace Solution
                     { "weapons", typeof(Weapon) },
                     { "armor", typeof(Armor) },
                     { "potion", typeof(Potion) },
+                    { "food_ingredient", typeof(Food) },
                     { "food", typeof(Food) },
                     { "materials", typeof(Material) }
                 };

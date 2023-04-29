@@ -2,55 +2,31 @@
 
 namespace Solution.Items
 {
-    internal class Food : Item, IConsumable, ICombinable
+    internal class Food : Item, IConsumable
     {
-        private readonly Random random = new();
-        private readonly bool ingredient = false;
-        
+        private static Random random = new();
+        protected int healthBoost;
+
         public Food(string resouceName, Bitmap image) : base(ParseResourceName(resouceName), image)
         {
-            ingredient = resouceName.StartsWith("ingredient");
-            Consumed = false;
+            healthBoost = 10 + random.Next(0, 25);
         }
 
         public Food(string name, Bitmap image, bool ingredient) : base(name, image)
         {
-            this.ingredient = ingredient;
-            Consumed = false;
-        }
-
-        public bool CanCombine(Item item)
-        {
-            if (item != null && item is Food food)
-                return this.ingredient && food.ingredient;
-
-            return false;
-        }
-
-        public Item? Combine(Item item)
-        {
-            if (CanCombine(item))
-                return CreateRandomFood();
-
-            return null;
+            healthBoost = 10 + random.Next(0, 25);
         }
 
         public bool Consumed { get; set; }
 
         public void Consume()
         {
-            Player.hp += ingredient ? 5 : 10;
+            Player.hp += healthBoost;
             Consumed = true;
         }
 
-        public bool IsIngredient()
+        protected Food CreateRandomFood()
         {
-            return ingredient;
-        }
-
-        private Food CreateRandomFood()
-        {   
-
             int combination = random.Next(1, 6);
             string name;
             Bitmap image;
@@ -84,7 +60,7 @@ namespace Solution.Items
         {
             if (name.StartsWith("ingredient"))
                 name = name[name.IndexOf("_")..].Trim();
-            
+
             return name.Replace("_", " ").Trim();
         }
 
