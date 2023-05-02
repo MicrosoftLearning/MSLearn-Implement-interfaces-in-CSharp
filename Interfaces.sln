@@ -5,13 +5,17 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01-Implement-Interfaces", "M01-Implement-Interfaces\M01-Implement-Interfaces.csproj", "{117868F8-FA95-49A2-B479-481265CF6C98}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution-Implement-Interfaces", "Solution\Solution-Implement-Interfaces.csproj", "{0CE23E14-EBC8-43A2-BC3E-E391392AEE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{0D0248CE-F3AA-4FEA-B4A6-D4F90E485639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{0D0248CE-F3AA-4FEA-B4A6-D4F90E485639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02-Implement-Interfaces", "M02-Implement-Interfaces\M02-Implement-Interfaces.csproj", "{8DB9F600-7E5A-42F9-A25F-C72C1F27F24D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02-Implement-Interfaces", "M02-Implement-Interfaces\M02-Implement-Interfaces.csproj", "{8DB9F600-7E5A-42F9-A25F-C72C1F27F24D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03-Implement-Interfaces", "M03-Implement-Interfaces1\M03-Implement-Interfaces.csproj", "{493AFC44-49DD-4DF6-8EFF-776E3100FEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03-Implement-Interfaces", "M03-Implement-Interfaces1\M03-Implement-Interfaces.csproj", "{493AFC44-49DD-4DF6-8EFF-776E3100FEE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution-Implement-Interfaces", "Solution-Implement-Interfaces\Solution-Implement-Interfaces.csproj", "{02811795-6C51-475E-BE21-6DD81B7C0607}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04-Guided-Project", "M04-Guided-Project\M04-Guided-Project.csproj", "{AFE28596-33E4-4A9D-919B-BB50962DA43F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution-Guided-Project", "Solution-Guided-Project\Solution-Guided-Project.csproj", "{0077D94C-9DE8-44D4-8988-E5086E5530BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +27,6 @@ Global
 		{117868F8-FA95-49A2-B479-481265CF6C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117868F8-FA95-49A2-B479-481265CF6C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117868F8-FA95-49A2-B479-481265CF6C98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CE23E14-EBC8-43A2-BC3E-E391392AEE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CE23E14-EBC8-43A2-BC3E-E391392AEE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CE23E14-EBC8-43A2-BC3E-E391392AEE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CE23E14-EBC8-43A2-BC3E-E391392AEE91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D0248CE-F3AA-4FEA-B4A6-D4F90E485639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D0248CE-F3AA-4FEA-B4A6-D4F90E485639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0248CE-F3AA-4FEA-B4A6-D4F90E485639}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +39,18 @@ Global
 		{493AFC44-49DD-4DF6-8EFF-776E3100FEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493AFC44-49DD-4DF6-8EFF-776E3100FEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493AFC44-49DD-4DF6-8EFF-776E3100FEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02811795-6C51-475E-BE21-6DD81B7C0607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02811795-6C51-475E-BE21-6DD81B7C0607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02811795-6C51-475E-BE21-6DD81B7C0607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02811795-6C51-475E-BE21-6DD81B7C0607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE28596-33E4-4A9D-919B-BB50962DA43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE28596-33E4-4A9D-919B-BB50962DA43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE28596-33E4-4A9D-919B-BB50962DA43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE28596-33E4-4A9D-919B-BB50962DA43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0077D94C-9DE8-44D4-8988-E5086E5530BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0077D94C-9DE8-44D4-8988-E5086E5530BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0077D94C-9DE8-44D4-8988-E5086E5530BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0077D94C-9DE8-44D4-8988-E5086E5530BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
