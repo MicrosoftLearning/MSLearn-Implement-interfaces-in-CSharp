@@ -1,4 +1,4 @@
-using LangtonsAnt;
+using M04_Guided_Project.Game;
 
 Game game = new Game(16);
 
@@ -11,7 +11,7 @@ void Print(Game game)
     {
       char fieldChar = '░';
       // If ant is at the cell, display ant direction instead of color value
-      IAnt? ant = game.Ants.FirstOrDefault(a => (i == a.I) && (j == a.J));
+      Ant? ant = game.Ants.FirstOrDefault(a => (i == a.I) && (j == a.J));
       if (ant != null)
       {
         // Draw one of the ants

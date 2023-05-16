@@ -1,8 +1,6 @@
-using LangtonsAnt;
-
-namespace LangtonsAnt
+namespace M04_Guided_Project.Game
 {
-  public class Ant: IAnt
+  public class Ant
   {
     public int I { get; set; }
     public int J { get; set; }

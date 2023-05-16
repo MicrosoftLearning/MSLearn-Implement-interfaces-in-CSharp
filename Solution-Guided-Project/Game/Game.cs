@@ -13,9 +13,9 @@ namespace LangtonsAnt
     public Game(int size = 64)
     {
       Field = new byte[size, size];
-            Ants = new IAnt[] {
-           new GeneralizedAnt(i: size/2 + 2, j: size / 2, direction: AntDirection.Up),
-           new GeneralizedAnt(i: size/2 - 2, j: size / 2, direction: AntDirection.Down) { Rule = "LR" }
+      Ants = new IAnt[] {
+           new Ant(i: size/2 + 2, j: size / 2, direction: AntDirection.Up),
+           new MirrorAnt(i: size/2 - 2, j: size / 2, direction: AntDirection.Down)
         };
     }
 

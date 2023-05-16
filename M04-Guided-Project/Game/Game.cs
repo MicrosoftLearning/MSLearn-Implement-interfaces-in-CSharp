@@ -1,10 +1,10 @@
-namespace LangtonsAnt
+namespace M04_Guided_Project.Game
 {
   public class Game
   {
     public int GenerationN { get; set; } = 0;
     public byte[,] Field { get; set; }
-    public IAnt[] Ants { get; set; }
+    public Ant[] Ants { get; set; }
     public int Size
     {
       get => Field.GetLength(0);
@@ -13,9 +13,8 @@ namespace LangtonsAnt
     public Game(int size = 64)
     {
       Field = new byte[size, size];
-      Ants = new IAnt[] {
-           new Ant(i: size/2 + 2, j: size / 2, direction: AntDirection.Up),
-           new MirrorAnt(i: size/2 - 2, j: size / 2, direction: AntDirection.Down)
+      Ants = new Ant[] {
+           new Ant(i: size/2, j: size / 2, direction: AntDirection.Up)
         };
     }
 

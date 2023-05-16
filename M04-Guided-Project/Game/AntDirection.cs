@@ -1,4 +1,4 @@
-namespace LangtonsAnt
+namespace M04_Guided_Project.Game
 {
     public enum AntDirection
     {
