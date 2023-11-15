@@ -1,6 +1,6 @@
 namespace M04_Guided_Project.Game
 {
-  public class Ant
+  public class Ant : IAnt
   {
     public int I { get; set; }
     public int J { get; set; }

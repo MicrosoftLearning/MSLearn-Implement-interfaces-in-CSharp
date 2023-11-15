@@ -20,6 +20,11 @@ namespace Solution
             controller = new Model(inventory);
             UpdateInventory(inventory);
             UpdateStats();
+            if (!Model.ScrollsImplemented)
+            {
+                readButton.Visible = false;
+                splitter1.Size = new System.Drawing.Size(706, 69);
+            }
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -145,10 +150,15 @@ namespace Solution
                     { "weapons", typeof(Weapon) },
                     { "armor", typeof(Armor) },
                     { "potion", typeof(Potion) },
-                    { "food_ingredient", typeof(Food) },
+                    { "food_ingredient", typeof(Ingredient) },
                     { "food", typeof(Food) },
                     { "materials", typeof(Material) }
                 };
+
+                if (Model.ScrollsImplemented)
+                {
+                    itemTypes.Add("scroll", typeof(Scroll));
+                }
 
                 foreach (DictionaryEntry entry in imageEntries)
                 {
@@ -216,6 +226,11 @@ namespace Solution
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void readButton_Click(object sender, EventArgs e)
+        {
+            UpdateInventory(controller.GetReadables());
         }
     }
 }

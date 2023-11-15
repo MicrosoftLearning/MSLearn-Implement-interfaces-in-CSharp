@@ -37,6 +37,7 @@ namespace Solution
             equipButton = new Button();
             consumeButton = new Button();
             craftButton = new Button();
+            readButton = new Button();
             splitter1 = new Splitter();
             equippedButton = new Button();
             consumedButton = new Button();
@@ -88,6 +89,7 @@ namespace Solution
             flowLayoutPanel1.Controls.Add(equipButton);
             flowLayoutPanel1.Controls.Add(consumeButton);
             flowLayoutPanel1.Controls.Add(craftButton);
+            flowLayoutPanel1.Controls.Add(readButton);
             flowLayoutPanel1.Controls.Add(splitter1);
             flowLayoutPanel1.Controls.Add(equippedButton);
             flowLayoutPanel1.Controls.Add(consumedButton);
@@ -142,17 +144,28 @@ namespace Solution
             craftButton.UseVisualStyleBackColor = true;
             craftButton.Click += craftButton_Click;
             // 
+            // readButton
+            // 
+            readButton.BackColor = SystemColors.Control;
+            readButton.Location = new Point(948, 6);
+            readButton.Name = "readButton";
+            readButton.Size = new Size(225, 69);
+            readButton.TabIndex = 7;
+            readButton.Text = "Readables";
+            readButton.UseVisualStyleBackColor = true;
+            readButton.Click += readButton_Click;
+            // 
             // splitter1
             // 
-            splitter1.Location = new Point(948, 6);
+            splitter1.Location = new Point(1179, 6);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(711, 69);
+            splitter1.Size = new Size(481, 69);
             splitter1.TabIndex = 4;
             splitter1.TabStop = false;
             // 
             // equippedButton
             // 
-            equippedButton.Location = new Point(1665, 6);
+            equippedButton.Location = new Point(1666, 6);
             equippedButton.Name = "equippedButton";
             equippedButton.Size = new Size(225, 69);
             equippedButton.TabIndex = 5;
@@ -162,7 +175,7 @@ namespace Solution
             // 
             // consumedButton
             // 
-            consumedButton.Location = new Point(1896, 6);
+            consumedButton.Location = new Point(1897, 6);
             consumedButton.Name = "consumedButton";
             consumedButton.Size = new Size(225, 69);
             consumedButton.TabIndex = 6;
@@ -527,5 +540,6 @@ namespace Solution
         private Splitter splitter1;
         private Button equippedButton;
         private Button consumedButton;
+        private Button readButton;
     }
 }

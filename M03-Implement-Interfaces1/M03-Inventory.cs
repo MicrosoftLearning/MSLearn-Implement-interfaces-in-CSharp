@@ -147,7 +147,8 @@ namespace M03_Implement_Interfaces
                     { "potion", typeof(Potion) },
                     { "food_ingredient", typeof(Ingredient) },
                     { "food", typeof(Food) },
-                    { "materials", typeof(Material) }
+                    { "materials", typeof(Material) },
+                    //{ "scroll", typeof(Scroll) }
                 };
 
                 foreach (DictionaryEntry entry in imageEntries)

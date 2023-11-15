@@ -11,7 +11,7 @@ void Print(Game game)
     {
       char fieldChar = '░';
       // If ant is at the cell, display ant direction instead of color value
-      Ant? ant = game.Ants.FirstOrDefault(a => (i == a.I) && (j == a.J));
+      IAnt? ant = game.Ants.FirstOrDefault(a => (i == a.I) && (j == a.J));
       if (ant != null)
       {
         // Draw one of the ants

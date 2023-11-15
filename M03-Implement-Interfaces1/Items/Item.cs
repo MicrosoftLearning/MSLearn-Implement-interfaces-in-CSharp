@@ -14,6 +14,8 @@
 
         public Bitmap Image { get; }
 
+        public string Collection { get; set; }
+
         public static string ParseResourceName(string name)
         {
             return name[name.IndexOf("_")..].Replace("_s_", "'s ").Replace("_", " ").Trim();

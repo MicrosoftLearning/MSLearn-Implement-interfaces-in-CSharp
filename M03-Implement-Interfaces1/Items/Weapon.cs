@@ -10,7 +10,7 @@ namespace M03_Implement_Interfaces.Items
         Axe
     }
 
-    internal class Weapon : Item, IEquipable, ICombinable
+    internal class Weapon : Item, IEquipable, ICombinable, ISynergyEffect
     {
         private readonly Random random = new();
         private readonly WeaponClass weaponClass;
@@ -100,6 +100,51 @@ namespace M03_Implement_Interfaces.Items
             }
         }
 
+        public bool HasSynergyWith(Item item)
+        {
+            if (this.Collection != null && this.Collection.Equals(item.Collection))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public bool HasSynergyWith(List<Item> items)
+        {
+            if (this.Collection != null)
+            {
+                return items.All(item => item.Collection.Equals(this.Collection));
+            }
+
+            return false;
+        }
+
+        public void ActivateSynergy(bool active)
+        {
+            SynergyBonus bonus = this.GetSynergyBonus();
+            if (bonus != null)
+            {
+                if (bonus.Stat.Equals("attack"))
+                {
+                    if (active)
+                        attack += bonus.Bonus;
+                    else
+                        attack -= bonus.Bonus;
+                }
+
+            }
+        }
+
+        public bool SynergyActive()
+        {
+            return this.HasSynergyWith(equipped);
+        }
+
+        public SynergyBonus GetSynergyBonus()
+        {
+            return new SynergyBonus("attack", 20);
+        }
+        
         public int Attack => attack;
         public int Magic => magic;
         public int Mana => mana;

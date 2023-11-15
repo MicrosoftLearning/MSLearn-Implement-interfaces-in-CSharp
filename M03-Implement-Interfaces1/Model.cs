@@ -12,6 +12,8 @@ namespace Solution
         private readonly List<Item> inventory;
         private List<Item> selectedItems;
 
+        public static bool ScrollsImplemented = false;
+
         public Model(List<Item> inventory)
         {
             this.inventory = inventory;
@@ -61,6 +63,11 @@ namespace Solution
 
                 return newItem;
             }
+            return null;
+        }
+
+        public List<Item> GetReadables()
+        {
             return null;
         }
 

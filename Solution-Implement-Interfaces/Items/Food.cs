@@ -37,19 +37,19 @@ namespace Solution.Items
                     image = Resources.food_combined_1;
                     break;
                 case 2:
-                    name = "soup";
+                    name = "curry";
                     image = Resources.food_combined_2;
                     break;
                 case 3:
-                    name = "burger";
+                    name = "gyro";
                     image = Resources.food_combined_3;
                     break;
                 case 4:
-                    name = "trifle";
+                    name = "lo mein";
                     image = Resources.food_combined_4;
                     break;
                 default:
-                    name = "pastry";
+                    name = "cream puff";
                     image = Resources.food_combined_5;
                     break;
             }

@@ -9,8 +9,12 @@ namespace Solution
         private const string equip = "Equip";
         private const string unequip = "Unequip";
         private const string consume = "Consume";
+        private const string read = "Read";
+        private const string markAsUnread = "Mark as Unread";
         private readonly List<Item> inventory;
         private List<Item> selectedItems;
+
+        public static bool ScrollsImplemented = true;
 
         public Model(List<Item> inventory)
         {
@@ -20,18 +24,24 @@ namespace Solution
 
         public string GetItemAction()
         {
-            if (selectedItems.Count == 2 && selectedItems[0] is ICombinable material)
+            ICombinable? material = selectedItems[0] as ICombinable;
+            if (selectedItems.Count == 2 && material != null)
             {
                 if (material.CanCombine(selectedItems[1]))
                     return craft;
             }
             else if (selectedItems[0] is IEquipable item)
             {
+                var item2 = selectedItems[0] as IEquipable;
                 return item.Equipped ? unequip : equip;
             }
             else if (selectedItems[0] is IConsumable)
             {
                 return consume;
+            }
+            else if (selectedItems[0] is IReadable text)
+            {
+                return text.IsRead ? read : markAsUnread;
             }
             return none;
         }
@@ -51,6 +61,13 @@ namespace Solution
                 {
                     consumable.Consume();
                 }
+                else if (selectedItems[0] is IReadable text)
+                {
+                    if (text.IsRead)
+                        text.MarkAsUnread();
+                    else
+                        text.Read();
+                }    
             }
             else if (selectedItems.Count == 2 && selectedItems[0] is ICombinable material)
             {
@@ -62,6 +79,17 @@ namespace Solution
                 return newItem;
             }
             return null;
+        }
+
+        public List<Item> GetReadables()
+        {
+            List<Item> items = new();
+            foreach (Item item in inventory)
+            {
+                if (item is IReadable)
+                    items.Add(item);
+            }
+            return items;
         }
 
         public List<Item> GetEquipables()

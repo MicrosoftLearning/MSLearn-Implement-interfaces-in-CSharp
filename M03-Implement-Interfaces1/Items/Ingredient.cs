@@ -1,27 +1,11 @@
 ﻿namespace M03_Implement_Interfaces.Items
 {
-    internal class Ingredient : Food, ICombinable
+    internal class Ingredient : Item
     {
-        public Ingredient(string resouceName, Bitmap image) : base(ParseResourceName(resouceName), image) 
+        public Ingredient(string resouceName, Bitmap image) : base(ParseResourceName(resouceName), image)
         {
             Random random = new();
-            healthBoost = 5 + random.Next(0, 5);
-        }
-
-        public bool CanCombine(Item item)
-        {
-            if (item != null && item is Ingredient)
-                return true;
-
-            return false;
-        }
-
-        public Item? Combine(Item item)
-        {
-            if (CanCombine(item))
-                return CreateRandomFood();
-
-            return null;
+            // healthBoost = 5 + random.Next(0, 5);
         }
 
         private static new string ParseResourceName(string name)
