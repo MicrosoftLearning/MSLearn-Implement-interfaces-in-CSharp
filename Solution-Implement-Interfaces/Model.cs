@@ -41,7 +41,7 @@ namespace Solution
             }
             else if (selectedItems[0] is IReadable text)
             {
-                return text.IsRead ? read : markAsUnread;
+                return text.IsRead ?  markAsUnread : read;
             }
             return none;
         }

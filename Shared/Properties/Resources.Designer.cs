@@ -63,6 +63,16 @@ namespace Shared.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap armor_breastplate_divine_guard {
+            get {
+                object obj = ResourceManager.GetObject("armor_breastplate_divine guard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap armor_breastplate_emperor_s_armor {
             get {
                 object obj = ResourceManager.GetObject("armor_breastplate_emperor_s armor", resourceCulture);
@@ -76,16 +86,6 @@ namespace Shared.Properties {
         public static System.Drawing.Bitmap armor_breastplate_mage_s_destiny {
             get {
                 object obj = ResourceManager.GetObject("armor_breastplate_mage_s destiny", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap armor_breastplate_meteor_guard {
-            get {
-                object obj = ResourceManager.GetObject("armor_breastplate_meteor guard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +453,29 @@ namespace Shared.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap materials_rune_earth_rune {
+            get {
+                object obj = ResourceManager.GetObject("materials_rune_earth rune", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap materials_rune_fire_rune {
             get {
                 object obj = ResourceManager.GetObject("materials_rune_fire rune", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap materials_rune_spirit_rune {
+            get {
+                object obj = ResourceManager.GetObject("materials_rune_spirit rune", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -656,6 +676,86 @@ namespace Shared.Properties {
         public static System.Drawing.Bitmap potion_weak_strength {
             get {
                 object obj = ResourceManager.GetObject("potion_weak_strength", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_charm {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_charm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_entangle {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_entangle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_fireball {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_fireball", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_fissure {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_fissure", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_ice_shard {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_ice_shard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_illusion {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_illusion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_quake {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_quake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap scrolls_scroll_of_water_blast {
+            get {
+                object obj = ResourceManager.GetObject("scrolls_scroll_of_water_blast", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
