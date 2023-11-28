@@ -238,7 +238,7 @@ namespace Solution
             // 
             label1.AutoSize = true;
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(3, 10);
             label1.Margin = new Padding(0);
             label1.Name = "label1";

@@ -1,6 +1,7 @@
 ﻿using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
+using Font = System.Drawing.Font;
 
 namespace M02_Implement_Interfaces
 {
