@@ -14,7 +14,7 @@
             IsRead = true;
         }
 
-        public void MarkAsUnread()
+        public void MarkAsNew()
         {
             IsRead = false;
         }

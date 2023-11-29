@@ -10,7 +10,7 @@ namespace Solution
         private const string unequip = "Unequip";
         private const string consume = "Consume";
         private const string read = "Read";
-        private const string markAsUnread = "Mark as Unread";
+        private const string markAsNew = "Mark as New";
         private readonly List<Item> inventory;
         private List<Item> selectedItems;
 
@@ -41,7 +41,7 @@ namespace Solution
             }
             else if (selectedItems[0] is IReadable text)
             {
-                return text.IsRead ?  markAsUnread : read;
+                return text.IsRead ?  markAsNew : read;
             }
             return none;
         }
@@ -64,7 +64,7 @@ namespace Solution
                 else if (selectedItems[0] is IReadable text)
                 {
                     if (text.IsRead)
-                        text.MarkAsUnread();
+                        text.MarkAsNew();
                     else
                         text.Read();
                 }    

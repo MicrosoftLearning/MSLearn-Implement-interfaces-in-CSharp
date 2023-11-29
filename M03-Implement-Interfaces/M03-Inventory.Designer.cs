@@ -62,6 +62,7 @@
             manaLabel = new Label();
             manaValue = new Label();
             selectButton = new Button();
+            readButton = new Button();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -84,6 +85,7 @@
             flowLayoutPanel1.Controls.Add(equipButton);
             flowLayoutPanel1.Controls.Add(consumeButton);
             flowLayoutPanel1.Controls.Add(craftButton);
+            flowLayoutPanel1.Controls.Add(readButton);
             flowLayoutPanel1.Controls.Add(splitter1);
             flowLayoutPanel1.Controls.Add(equippedButton);
             flowLayoutPanel1.Controls.Add(consumedButton);
@@ -140,15 +142,15 @@
             // 
             // splitter1
             // 
-            splitter1.Location = new Point(948, 6);
+            splitter1.Location = new Point(1179, 6);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(711, 69);
+            splitter1.Size = new Size(483, 69);
             splitter1.TabIndex = 4;
             splitter1.TabStop = false;
             // 
             // equippedButton
             // 
-            equippedButton.Location = new Point(1665, 6);
+            equippedButton.Location = new Point(1668, 6);
             equippedButton.Name = "equippedButton";
             equippedButton.Size = new Size(225, 69);
             equippedButton.TabIndex = 5;
@@ -158,7 +160,7 @@
             // 
             // consumedButton
             // 
-            consumedButton.Location = new Point(1896, 6);
+            consumedButton.Location = new Point(1899, 6);
             consumedButton.Name = "consumedButton";
             consumedButton.Size = new Size(225, 69);
             consumedButton.TabIndex = 6;
@@ -221,7 +223,7 @@
             // 
             label1.AutoSize = true;
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             label1.Location = new Point(3, 10);
             label1.Margin = new Padding(0);
             label1.Name = "label1";
@@ -452,6 +454,17 @@
             selectButton.UseVisualStyleBackColor = true;
             selectButton.Click += selectButton_Click;
             // 
+            // readButton
+            // 
+            readButton.BackColor = SystemColors.Control;
+            readButton.Location = new Point(948, 6);
+            readButton.Name = "readButton";
+            readButton.Size = new Size(225, 69);
+            readButton.TabIndex = 7;
+            readButton.Text = "Readables";
+            readButton.UseVisualStyleBackColor = true;
+            readButton.Click += button1_Click;
+            // 
             // Inventory
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
@@ -523,5 +536,6 @@
         private Splitter splitter1;
         private Button equippedButton;
         private Button consumedButton;
+        private Button readButton;
     }
 }

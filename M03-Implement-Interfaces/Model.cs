@@ -7,6 +7,8 @@ namespace Solution
         private const string none = "Select";
         private const string craft = "Craft";
         private const string equip = "Equip";
+        private const string read = "Read";
+        private const string markAsNew = "Mark As New";
         private const string unequip = "Unequip";
         private const string consume = "Consume";
         private readonly List<Item> inventory;

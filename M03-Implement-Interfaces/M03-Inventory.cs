@@ -20,6 +20,12 @@ namespace M03_Implement_Interfaces
             controller = new Model(inventory);
             UpdateInventory(inventory);
             UpdateStats();
+
+            if (!Model.ScrollsImplemented)
+            {
+                readButton.Visible = false;
+                splitter1.Size = new System.Drawing.Size(706, 69);
+            }
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -147,9 +153,13 @@ namespace M03_Implement_Interfaces
                     { "potion", typeof(Potion) },
                     { "food_ingredient", typeof(Ingredient) },
                     { "food", typeof(Food) },
-                    { "materials", typeof(Material) },
-                    //{ "scroll", typeof(Scroll) }
+                    { "materials", typeof(Material) }
                 };
+
+                if (Model.ScrollsImplemented)
+                {
+                    itemTypes.Add("scroll", typeof(Scroll));
+                }
 
                 foreach (DictionaryEntry entry in imageEntries)
                 {
@@ -216,6 +226,11 @@ namespace M03_Implement_Interfaces
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UpdateInventory(controller.GetReadables());
         }
     }
 }

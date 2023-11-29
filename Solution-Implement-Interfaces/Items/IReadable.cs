@@ -3,7 +3,7 @@
     internal interface IReadable
     {
         public void Read();
-        public void MarkAsUnread();
+        public void MarkAsNew();
         public bool IsRead { get; set; }
     }
 }
