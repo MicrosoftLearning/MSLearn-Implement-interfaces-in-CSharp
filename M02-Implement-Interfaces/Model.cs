@@ -79,12 +79,7 @@ namespace Solution
 
         public List<Item> GetCraftables()
         {
-            List<Item> items = new List<Item>();
-
-            foreach (Item item in inventory)
-                items.Add(item);
-            
-            return items;
+            return inventory;
         }
 
         public void SetSelectedItems(List<Item> selectedItems)

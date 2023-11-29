@@ -3,16 +3,14 @@ using System;
 
 namespace M03_Implement_Interfaces.Items
 {
-    internal class Food : Item, IConsumable, ICombinable
+    internal class Food : Item, IConsumable
     {
         private static Random random = new();
         protected int healthBoost;
-        private readonly bool ingredient = false;
 
         public Food(string resouceName, Bitmap image) : base(ParseResourceName(resouceName), image) 
         {
             healthBoost = 10 + random.Next(0, 25);
-            ingredient = resouceName.StartsWith("ingredient");
         }
 
         public bool Consumed { get; set; }
@@ -21,22 +19,6 @@ namespace M03_Implement_Interfaces.Items
         {
             Player.hp += healthBoost;
             Consumed = true;
-        }
-
-        public bool CanCombine(Item item)
-        {
-            if (item != null && this.ingredient)
-                return true;
-
-            return false;
-        }
-
-        public Item? Combine(Item item)
-        {
-            if (CanCombine(item))
-                return CreateRandomFood();
-
-            return null;
         }
 
         protected Food CreateRandomFood()
